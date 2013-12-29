@@ -21,6 +21,7 @@ default['cacti']['version']     = '0.8.8a'
 default['cacti']['user']        = 'cacti'
 default['cacti']['group']       = 'apache'
 default['cacti']['cron_minute'] = '*/5'
+default['cacti']['rrd_version'] = 'rrd-1.3.x'
 
 # Apache2 attributes
 
